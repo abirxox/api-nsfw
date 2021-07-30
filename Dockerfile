@@ -1,7 +1,7 @@
-FROM heroku/heroku:16
+FROM python:slim-buster
 
 # Python and Caffe native dependencies
-RUN apt-get -qq update && apt-get -qq install -y --no-install-recommends \
+RUN apt -qq update && apt -qq install -y --no-install-recommends \
         build-essential \
         cmake \
         git \
