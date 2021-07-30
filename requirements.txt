@@ -3,3 +3,6 @@ Flask
 Jinja2
 Werkzeug
 gevent
+numpy
+setuptools
+scipy
